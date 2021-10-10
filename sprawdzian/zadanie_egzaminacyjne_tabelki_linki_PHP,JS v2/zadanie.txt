@@ -1,0 +1,36 @@
+﻿Utwórz baner
+
+    Baner ma wymiary 900 px na 120px.
+    Tło banera powinno być wypełnione dowolnym odcieniem koloru żółtego w 50% szerokości, reszta przezroczysta, kolor czcionki czarny, napis na banerze: zdam EE09 i kilka strzałek. Plik banera powinien być zapisany w formacie PNG, nazwij go baner.png.
+		
+----------------------------------------------------------------------------------------
+
+Strona główna oraz podstrony składają się z baneru (wyśrodkowany), menu po lewej szerokie na 35%, treści strony szerokość 65% i stopki 100%. Baner oraz menu są stałe dla wszystkich podstron witryny. Zmienia się tylko treść strony.
+
+Kolor tła baneru: zielono-żółty, menu: bladozielony, treść: średni akwamarynowy.
+    
+Czcionkę na stronie ustaw na 20px;
+    
+Menu złożone jest z linków w liście punktowanej (symboli listy strzałka w prawo) prowadzących do podstron przezentujących rozwiązania kolejnych zadań w części na treść strony.
+    
+Baner stanowi link do strony głównej. Z każdej podstrony można przejść do strony głównej klikając baner.
+		
+    Strona główna nosi nazwę index.php.
+    Treść strony głównej to Twój numer PESEL:
+    Mój PESEL to: ....................................
+    Czcionka powinna być pogrubiona i podkreślona.
+		
+----------------------------------------------------------------------------------------
+Gdziekolwiek jest zadanie z PHP, strona nie może wyświatlać żadnych błędów.
+#1: Wypisz za pomocą skryptu PHP liczby podzielne przez N z zakresu [A,B], dane przekaż formularzem przez GET
+#2: Wypisz do akapitu za pomocą JS liczby nieparzyste z zakresu podanego przez prompt, pamiętaj o sprawdzeniu czy podano liczby
+#3: Utwórz tabele zgodnie z zawartością pliku table.docx
+#4: Wstaw grafiki 3 znanych serwisów, utwórz z nich linki do tych serwisów, Każda grafika ma mieć wymiary 100x100px (przeskalować pliki, nie w CSS). Na stronie zmień rozmiar obrazków aby wyświetlały się 50x50px a po najechaniu myszką ich rozmiar wynosił 100x100px
+#5. Utwórz pole tekstowe, input na liczbę, przycisk. Po naciśnięciu przycisku przekopuj string do akapitu tyle razy ile user podał w inpucie
+#6. Utwórz element h1, input, button, checkbox. Po naciśnięciu buttona przepisz tekst z inputa do h1 uppercasem jeżeli checkbox był zaznaczony, jeżeli nie, przepisz zmieniając treść na lowercase
+#7. Wylosuj za pomocą JS 15 liczb z przedziału [1,100], zapisz do akapitu rozdzielone myślnikami
+#8. Utwórz 2 pola input na liczby i przyciski podstawowych operacji arytmetycznych (+-/*). Po naciśnięciu przycisku wykonaj operację na liczbach i wynik wypisz w H1 poniżej (JavaScript)
+#9. Utwórz 2 pola input na liczby i przyciski podstawowych operacji arytmetycznych (+-/*). Po naciśnięciu przycisku wykonaj operację na liczbach i wynik wypisz w H1 poniżej (PHP)
+#10.Utwórz przycik po naciśnięciu którego strona zmieni kolor na losowy (każda składowa)
+----------------------------------------------------------------------
+

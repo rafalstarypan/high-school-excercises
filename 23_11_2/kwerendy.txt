@@ -1,0 +1,4 @@
+1. SELECT uzytkownik.id, imie, nazwisko, email FROM uzytkownik WHERE uzytkownik.id < 4;
+2. SELECT tytul FROM ogloszenie WHERE uzytkownik_id = 1;
+3. CREATE USER 'admin'@'localhost' IDENTIFIED BY 'zaq1@';
+4. GRANT SELECT, DELETE, UPDATE ON uzytkownik TO 'admin'@'localhost';

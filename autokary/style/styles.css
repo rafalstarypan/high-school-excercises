@@ -1,0 +1,54 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 250px;
+}
+.wrapper {
+    display: flex;
+    /*height: auto;*/
+}
+
+.nav {
+    flex: 1;
+    background-color: green;
+}
+
+.content {
+    flex: 3;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+}
+
+.partners {
+    flex: 1.20;
+    text-align: center;
+    background: blanchedalmond;
+    padding: 10px 0px;
+}
+
+.footer {
+    background-color: lightblue;
+    text-align: right;
+    padding: 5px;
+}
+
+ul {
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+}
+
+.myTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.myTable td {
+    border: 1px solid black;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <title>O firmie</title>
+    <script>
+
+        function checkForm() {
+            let el = document.querySelector("#name");
+            let name = el.value;
+            el = document.querySelector("#email");
+            let email = el.value;
+            el = document.querySelector("#company");
+            let company = el.value;
+            el = document.querySelector("#phone");
+            let phone = el.value;
+            el = document.querySelector("#query");
+            let query = el.value;
+            
+            phone = Number(phone);
+            if (!name || !email || !company || isNaN(phone) || !query) return false;
+
+            return true;
+        }
+
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+
+        <div class="wrapper">
+            <div class="nav">
+                <a href="index.html">O firmie </a> <br />
+                <a href="kontakt.html">Kontakt </a> <br />
+                <a href="oferta.html">Oferta </a> <br />
+                <a href="warunki_wynajmu.html">Warunki wynajmu </a> <br />
+                <a href="autokary.html">Autokary </a> <br />
+                <a href="#">Zapytanie ofertowe </a> <br />
+                <a href="#">Galeria </a> <br />
+                <a href="#">Losowe Liczby </a> <br />
+                <a href="#">Formularz liczący </a> <br />
+            </div>
+            <div class="content">
+                
+                <form action="#" onsubmit="return checkForm()">
+                    <table class="no">
+                        <tr><td>Imię i nazwisko: </td><td><input type="text" id="name"></td></tr>
+                        <tr><td>Email: </td><td><input type="email" id="email"> </td></tr>
+                        <tr><td>Firma: </td><td><input type="text" id="company"> </td></tr>
+                        <tr><td>Telefon kontaktowy: </td><td><input type="text" id="phone"> </td></tr>
+                        <tr><td>Zapytanie: </td><td><textarea id="query"></textarea> </td></tr>
+                        <tr><td><input type="submit" value="Wyślij list" /> </td><td> <input type="reset" value="Usuń informacje" /> </td></tr>
+                    </table>
+                </form>
+
+            </div>
+            <div class="partners">
+                <a href="http://www.jelcz.com.pl/"> <img src="dane/parnterzy/jelcz.jpg" alt="Partner 1"> </a>
+                <a href="https://www.setra-bus.com/pl-pl/strona-glowna.html?L=1"> <img src="dane/parnterzy/setra.gif" alt="Partner 2"> </a>
+                <a href="http://www.neoplan-bus.com/cms/en/home.html"> <img src="dane/parnterzy/neoplan.jpg" alt="Partner 3"> </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span> Rafał Starypan kl 4dt nr 23 </span>
+        </div>
+    </div>
+    
+</body>
+</html>

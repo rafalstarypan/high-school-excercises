@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica;
+}
+
+.baner_lewy, .lewy {
+    background-color: rgb(130, 69, 85);
+    color: white;
+    float: left;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+.baner_prawy, .prawy {
+    background-color: rgb(130, 69, 85);
+    color: white;
+    float: left;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+}
+
+.main, .footer {
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
+
+table, td {
+    border: 1px solid rgb(130, 69, 85);
+    color: rgb(130, 69, 85);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240, 234, 226);
+}

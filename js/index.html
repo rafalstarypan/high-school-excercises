@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+  
+    <select onclick="changeFont(this)">
+        <option value="Arial">Arial</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Monospace">Monospace</option>
+    </select>    <br />
+
+    <button onclick="changeBold()">B</button> 
+    <button onclick="changeItal()">I</button> 
+    <button onclick="changeUnder()">U</button> 
+    <button onclick="changeThrough()">S</button> <br />
+    <button onclick="changeAlign('left')">L</button>
+    <button onclick="changeAlign('center')">C</button>
+    <button onclick="changeAlign('right')">R</button> <br />
+    <input type="color" name="newColor" onchange="changeFontColor(this)"/> <br />
+    <button onclick="darkMode()">Dark Mode</button> 
+
+    <br /> <br />
+    <textarea style="width:500px; height:500px;"></textarea>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WYSWIG</title>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .buttons {
+            margin-bottom: 20px;
+        }
+        textarea {
+            font-size: 12px;
+            font-family: 'Times New Roman';
+            resize: none;
+            height: 300px;
+            width: 350px;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="buttons">
+            <button onclick="switchBold()">B</button>
+            <button onclick="switchItalic()">I</button>
+            <button onclick="switchUnder()">U</button>
+            <button onclick="switchThrough()">S</button>
+            <select name="fontSize" onchange="setFontSize()">
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12" selected="selected">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+            </select>
+            <button onclick="incrementFont()">F+</button>
+            <button onclick="decrementFont()">F-</button>
+            <input type="color" name="color" onchange="setColor()">
+            <select name="fontFamily" onchange="setFontFamily()">
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+            </select>
+            <select name="align" onchange="setAlign()">
+                <option value="left">Left</option>
+                <option value="center">Center</option>
+                <option value="right">Right</option>
+            </select>
+        </div>
+
+        <textarea name="myText"></textarea>
+
+    </div>
+
+
+</body>
+</html>

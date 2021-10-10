@@ -1,0 +1,4 @@
+zapytanie 1: SELECT nazwa, rozmiar, cena FROM buty WHERE rodzaj = 'd'
+zapytanie 2: SELECT nazwa, rodzaj, rozmiar, cena FROM buty WHERE cena >= 200 AND cena <= 250 AND rozmiar >= 40 AND rozmiar <= 43
+zapytanie 3: INSERT INTO `buty`(`id`, `nazwa`, `rozmiar`, `rodzaj`, `cena`) VALUES (NULL, 'buty sportowe', 45, 'm', 599)
+zapytanie 4: ALTER TABLE `buty` ADD promocja INT DEFAULT 0

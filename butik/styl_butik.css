@@ -1,0 +1,88 @@
+body {
+    color: white;
+    font-size: 18px;
+}
+
+#centrum {
+    display: flex;
+}
+
+#baner {
+    height: 50px;
+    padding: 25px;
+    background-color: rgb(97, 48, 48);
+}
+
+#lewy {
+    flex: 1;
+    padding: 40px;
+    color: black;
+}
+
+#srodkowy {
+    flex: 1;
+    background-color: rgb(97, 48, 48);
+}
+
+#prawy {
+    flex: 1;
+    padding: 40px;
+    color: black;
+}
+
+#stopka {
+    background-color: rgb(97, 48, 48);
+}
+
+h1 {
+    margin: 0px;
+    font-size: 1,8 em;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1,75 em;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 33%;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}

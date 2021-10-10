@@ -1,0 +1,42 @@
+
+body {
+    background-color: #FF8215;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.baner {
+    background-color: #FF1574;
+    text-align: right;
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    background-color: #E85713;
+    padding: 20px;
+}
+
+.middle {
+    flex: 1;
+    background-color: #FF4822;
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: #E85713;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #FF1574;
+    text-align: left;
+    padding: 20px;
+}

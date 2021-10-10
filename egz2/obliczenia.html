@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stacja paliw</title>
+    <link rel="stylesheet" href="styl3.css">
+    <script>
+        function work() {
+            let a = document.querySelector("#a").value;
+            let b = document.querySelector("#b").value;
+            let p = document.querySelector("#myP");
+
+            b = Number(b);
+            let text = "koszt paliwa: ";
+            if (a == 1) {
+                text += 4*b;
+            } else if (a == 2) {
+                text += 3.5*b;
+            } else {
+                text += 0;
+            }
+            
+            text += " zł";
+            p.innerHTML = text;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="baner">
+            <div class="baner_lewy">
+                <h1>Stacja Paliw</h1>
+            </div>
+            <div class="baner_prawy">
+                <a href="stacja.html"><img src="home.png" alt="Home"></a>
+                <a href="obliczenia.html"><img src="znak.png" alt="Znak"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <h3>Oblicz koszt paliwa</h3>
+            Rodzaj paliwa (1-benzyna, 2-olej napędowy): <br />
+            <input type="number" id="a"> <br />
+            Ile litrów <br />
+            <input type="number" id="b"> <br />
+            <button onclick="work()">Oblicz</button>
+            <p id="myP"></p>
+        </div>
+
+        <div class="wrapper">
+            <div class="lewy">
+                <a href="kwerendy.txt">Pobierz kwerendy</a>
+            </div>
+            <div class="prawy">
+                <img src="samochod.png" alt="samochód">
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Stronę opracował: 01300803012</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

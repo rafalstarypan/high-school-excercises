@@ -1,0 +1,70 @@
+* {
+    font-family: Georgia;
+}
+
+.baner {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left, .middle {
+    background-color: #A26475;
+    color: white;
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+
+.right {
+    background-color: #A26475;
+    color: white;
+    float: left;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+}
+
+.main {
+    clear: both;
+    background-color: #F0EAE2;
+    padding: 50px;
+}
+
+.footer {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table, td, th {
+    border: 2px solid #69293A;
+    padding: 7px;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.btn1 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.btn2 {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+
+.btn3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+
